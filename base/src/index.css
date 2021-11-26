@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+body{
+    
+    min-height: 100vh;
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Josefin Sans', sans-serif;
+    
+    
+  }
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
+ 
+
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+
+  text-align: left;
+  z-index: -1;
+}
+
+h1{
+ color: white;
+ letter-spacing: 15px;
+}
+
+input{
+  all: unset;
+
+  background-color: white;
+
+  padding-left: 22px;
+
+  width: 540px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+
+
+.main{
+  
+  width: 565px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  bottom:50px;
+  
+
+  background-color: white;
+
+  z-index: 1;
+
+  border-radius: 5px;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+li{
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  list-style-type: none;
+  padding-right: 23px;
+  padding-left: 22px;
+}
+
+.tarefa{
+  border-bottom: 0.5px #E3E4F1 solid;
+}
+
+.close{
+  background-color: white;
+  border: unset;
+
+  position: relative;
+  top: 8px;
+}
+
+.filtros{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtros span{
+  padding-right: 15px;
+}
+
+.filtros button{
+  background-color: white;
+
+  border: none;
+
+  color: gray;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+.filtros .blue{
+  color: blue;
+}
+
+
+
